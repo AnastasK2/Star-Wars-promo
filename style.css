@@ -13,7 +13,7 @@
 }
 
 body {
-    background: #070506 url(main-bg.png) top right 100% no-repeat;
+    background: #070506 url(bg.jpg) top right 100% no-repeat;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
 }
@@ -207,10 +207,13 @@ body {
     display: none;
 }
 
+.owl-dots {
+    display: none;
+}
 
 @media(max-width: 600px){
     body {
-    background: #070506 url(main-bg.png) top right 100% no-repeat;
+    background: #070506 url(mainbg.png) top right 100% no-repeat;
     background-size: contain;
     background-attachment: fixed;
     }
@@ -243,7 +246,7 @@ body {
 
 @media(max-width: 800px){
     body {
-    background: #070506 url(main-bg.png) top right no-repeat;
+    background: #070506 url(mainbg.png) top right no-repeat;
     background-size: contain;
     background-attachment: fixed;
     }
